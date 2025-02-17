@@ -1,28 +1,28 @@
-Sentiment Analysis on Social Media Data Using Spark
+# Sentiment Analysis on Social Media Data Using Spark
 
-Project Overview
+## Project Overview
 
 This project aims to perform sentiment analysis on social media data collected from Twitter and Reddit. By leveraging Apache Spark for large-scale data processing, we extract insights into public sentiment on various topics using Natural Language Processing (NLP) techniques.
 
-Key Features
+## Key Features
 
-- Real-time data collection from Twitter and Reddit.
-- Large-scale data processing using Apache Spark.
-- Sentiment classification into Positive, Negative, and Neutral categories.
-- Storage of processed data in a database for further analysis.
-- Data visualization through an interactive dashboard.
+- **Real-time data collection** from Twitter and Reddit.
+- **Large-scale data processing** using Apache Spark.
+- **Sentiment classification** into Positive, Negative, and Neutral categories.
+- **Storage of processed data** in a database for further analysis.
+- **Data visualization** through an interactive dashboard.
 
-Technologies Used
+## Technologies Used
 
 - **Programming Language:** Python
 - **Big Data Framework:** Apache Spark (PySpark)
 - **Data Collection:** Twitter API (Tweepy), Reddit API (PRAW)
 - **Natural Language Processing (NLP):** NLTK, TextBlob, Vader, Hugging Face Transformers
-- **Database:** MongoDB/PostgreSQL **ALTERNATIVE --SQL
+- **Database:** MongoDB/PostgreSQL
 - **Visualization:** Matplotlib, Seaborn, Plotly, Streamlit/Dash
 - **Deployment:** AWS/GCP/Azure
 
-Project Workflow
+## Project Workflow
 
 1. **Data Collection**
     - Fetch live data from Twitter and Reddit using APIs.
@@ -40,34 +40,34 @@ Project Workflow
     - Store processed data in MongoDB or PostgreSQL.
 
 5. **Visualization & Dashboard**
-    - Create interactive charts and graphs to display sentiment trends. --Discuss later
+    - Create interactive charts and graphs to display sentiment trends.
     - Develop a web-based dashboard using Streamlit or Dash.
 
 6. **Deployment**
-    - Deploy API backend using Flask/Django/FastAPI/PostMan API
+    - Deploy API backend using Flask/Django/FastAPI.
     - Host the dashboard on a cloud platform.
 
-Dataset Sources
+## Dataset Sources
 
 - Twitter Live Data (collected via Twitter API)
 - Reddit Posts and Comments (collected via Reddit API)
 - Sentiment140 Dataset (for model training)
 - IMDB Reviews Dataset (for sentiment classification)
 
-Potential Use Cases
+## Potential Use Cases
 
 - Social media trend analysis
 - Brand reputation monitoring
 - Political sentiment tracking
 - Customer feedback analysis
 
-Future Enhancements
+## Future Enhancements
 
 - Implement a real-time streaming pipeline using Kafka.
 - Improve sentiment classification with deep learning models.
 - Deploy on a cloud-based Spark cluster for scalability.
 - Expand to multiple social media platforms.
 
-Conclusion
+## Conclusion
 
-This project demonstrates an end-to-end workflow for analyzing social media sentiment using big data tools. It is ideal as a capstone project for portfolios and can be used in real-world applications for sentiment monitoring and analytics.entiment Analysis on Social Media Data Using Spark
+This project demonstrates an end-to-end workflow for analyzing social media sentiment using big data tools. It is ideal as a capstone project for portfolios and can be used in real-world applications for sentiment monitoring and analytics.
