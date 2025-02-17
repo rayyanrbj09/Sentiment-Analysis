@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to perform sentiment analysis on social media data collected from Twitter and Reddit. By leveraging Apache Spark for large-scale data processing, we extract insights into public sentiment on various topics using Natural Language Processing (NLP) techniques.
+We aims to perform sentiment analysis on social media data collected from Twitter and Reddit. By leveraging Apache Spark for large-scale data processing, we extract insights into public sentiment on various topics using Natural Language Processing (NLP) techniques.
 
 ## Key Features
 
@@ -70,4 +70,4 @@ This project aims to perform sentiment analysis on social media data collected f
 
 ## Conclusion
 
-This project demonstrates an end-to-end workflow for analyzing social media sentiment using big data tools. It is ideal as a capstone project for portfolios and can be used in real-world applications for sentiment monitoring and analytics.
+We are tend to  demonstrate an end-to-end workflow for analyzing social media sentiment using big data tools. It is ideal as a capstone project for portfolios and can be used in real-world applications for sentiment monitoring and analytics.
