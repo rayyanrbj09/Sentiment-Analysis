@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-We aims to perform sentiment analysis on social media data collected from Twitter and Reddit. By leveraging Apache Spark for large-scale data processing, we extract insights into public sentiment on various topics using Natural Language Processing (NLP) techniques.
+We aims to perform sentiment analysis on social media data collected from Twitter and Reddit. By leveraging Apache Spark for large-scale data processing, we extract insights into public sentiment on various topics.
 
 ## Key Features
 
-- **Real-time data collection** from Twitter and Reddit.
+- **Real-time data collection** from Twitter.
 - **Large-scale data processing** using Apache Spark.
 - **Sentiment classification** into Positive, Negative, and Neutral categories.
 - **Storage of processed data** in a database for further analysis.
@@ -16,8 +16,7 @@ We aims to perform sentiment analysis on social media data collected from Twitte
 
 - **Programming Language:** Python
 - **Big Data Framework:** Apache Spark (PySpark)
-- **Data Collection:** Twitter API (Tweepy), Reddit API (PRAW)
-- **Natural Language Processing (NLP):** NLTK, TextBlob, Vader, Hugging Face Transformers
+- **Data Collection:** Twitter API (Tweepy).
 - **Database:** MongoDB/PostgreSQL
 - **Visualization:** Matplotlib, Seaborn, Plotly, Streamlit/Dash
 - **Deployment:** AWS/GCP/Azure
@@ -25,27 +24,26 @@ We aims to perform sentiment analysis on social media data collected from Twitte
 ## Project Workflow
 
 1. **Data Collection**
-    - Fetch live data from Twitter and Reddit using APIs.
+- Fetch live data from Twitter and Reddit using APIs.
     - Store raw data in a database.
 
 2. **Data Preprocessing**
-    - Clean text (remove URLs, special characters, stopwords, etc.).
+- Clean text (remove URLs, special characters, stopwords, etc.).
     - Convert text to lowercase and tokenize it.
 
 3. **Sentiment Analysis**
-    - Use pre-trained sentiment analysis models (Vader, TextBlob, or BERT).
-    - Train a custom ML model for better accuracy.
+- Use pre-trained sentiment analysis models (Vader, TextBlob, or BERT).
 
 4. **Data Storage & Retrieval**
-    - Store processed data in MongoDB or PostgreSQL.
+- Store processed data in MongoDB or PostgreSQL.
 
 5. **Visualization & Dashboard**
-    - Create interactive charts and graphs to display sentiment trends.
-    - Develop a web-based dashboard using Streamlit or Dash.
+- Create interactive charts and graphs to display sentiment trends.
+- Develop a web-based dashboard using Streamlit or Dash.
 
 6. **Deployment**
-    - Deploy API backend using Flask/Django/FastAPI.
-    - Host the dashboard on a cloud platform.
+- Deploy API backend using Flask/Django/FastAPI.
+- Host the dashboard on a cloud platform.
 
 ## Dataset Sources
 
